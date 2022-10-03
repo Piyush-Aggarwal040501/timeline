@@ -1,0 +1,78 @@
+#navbar{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar #logo{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: auto;
+}
+#navbar #others{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar .weekMonthBox{
+    display: flex;
+    padding: 10px 22px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(33, 150, 243);
+    border-radius: 6px;
+    cursor: pointer;
+}
+#navbar .weekMonthBox .calenderIcon{
+    position: relative;
+    right: 5px;
+    font-size: 18px;
+}
+#navbar .weekMonthBox .calenderIcon svg{ 
+    color :rgb(33, 150, 243)
+}
+#navbar .weekMonthBox .type{
+    position: relative;
+    bottom: 2px;
+}
+#navbar .weekMonthBox .down{
+    position: relative;
+    left: 6px;
+    top: 2px;
+}
+#navbar .weekMonthBox .down svg{
+    color:rgb(33, 150, 243);
+}
+#navbar .dateRange{
+    font-weight: 600;
+    font-family: auto;
+    margin: 0px 23px;
+    font-size: 20px;
+}
+#navbar .prevNextBtn{
+    display: flex;
+}
+#navbar .prev{
+    border: 2px solid rgb(33, 150, 243);
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    border-radius: 9px 0px 0px 9px;
+    font-size: 23px;
+    cursor: pointer;
+}
+#navbar .next{
+    border: 2px solid rgb(33, 150, 243);
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    border-radius: 0px 9px 9px 0px;
+    font-size: 23px;
+    cursor: pointer;
+}

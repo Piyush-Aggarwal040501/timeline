@@ -1,0 +1,40 @@
+#calenderBox{
+    padding: 20px 0px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(62, 60, 60, 0.318), 0 6px 20px 0 rgba(62, 60, 60, 0.318);
+    border-radius: 10px;
+}
+#headerCalender{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 19px;
+}
+#headerCalender .heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+#contentCalender .slots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#contentCalender .time{
+    position: relative;
+    bottom: 12px;
+    left: 64px;
+}
+
+#contentCalender .box {
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+}
